@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/profile_scrollView"
+    tools:context="com.android.capstone_TeamOrange_G1RulesExpert.Users.ProfileActivity"
+    android:background="@drawable/light_green_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/topSection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backgroundColor"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/backButtonPress"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/textColor"
+                android:contentDescription="@string/icon"
+                android:src="@drawable/back_icon_white" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update_your_account"
+            android:textSize="20sp"
+            android:fontFamily="@font/aclonica"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:background="@color/blueGreen"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/profile_fullname"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:hint="@string/enter_full_name"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/ic_baseline_create_24"
+                app:startIconTint="@color/black">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/antic"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@null" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/profile_emailId"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:hint="@string/enter_emailId"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@android:drawable/ic_dialog_email"
+                app:startIconTint="@color/black">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/antic"
+                    android:inputType="text"
+                    android:enabled="false"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@null" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_gender"
+                android:textColor="@color/black"
+                android:fontFamily="@font/aclonica"
+                android:textSize="18sp" />
+
+
+            <RadioGroup
+                android:id="@+id/profile_radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/antic"
+                    android:text="@string/male" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/antic"
+                    android:text="@string/female" />
+
+                <RadioButton
+                    android:id="@+id/others"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/antic"
+                    android:text="@string/other" />
+            </RadioGroup>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_your_age"
+                android:fontFamily="@font/aclonica"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <DatePicker
+                android:id="@+id/profile_age_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+                android:spinnersShown="true" />
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/country_code_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                app:ccp_defaultNameCode="CA"
+                app:ccp_defaultPhoneCode="1"
+                app:ccp_countryPreference="CA"
+                app:ccp_clickable="false"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/profile_phone_number"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_phone_number"
+                android:paddingBottom="10dp"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/ic_baseline_local_phone_24"
+                app:startIconTint="@color/black">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/antic"
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:enabled="false"
+                    android:textCursorDrawable="@null" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/profile_password"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:hint="@string/enter_Password"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/black"
+                app:startIconDrawable="@android:drawable/ic_lock_lock"
+                app:startIconTint="@color/black">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/antic"
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:enabled="false"
+                    android:textCursorDrawable="@null" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/profile_update_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/black"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/submit_btn"
+            android:textColor="@color/white"
+            android:layout_marginBottom="30dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

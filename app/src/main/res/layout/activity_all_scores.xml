@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightGrey"
+    tools:context="com.android.capstone_TeamOrange_G1RulesExpert.Users.AllScores">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/topSection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/backButtonPress"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="#fff"
+                android:contentDescription="@string/icon"
+                android:src="@drawable/back_icon_white" />
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/all_scores"
+            android:textSize="25sp"
+            android:fontFamily="@font/aclonica"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:background="@color/blueGreen"/>
+
+
+    <LinearLayout
+        android:id="@+id/scores_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+
+
+        <!--<LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="0dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/whitesquare"
+            >
+
+            <TextView
+                android:id="@+id/allScores_output"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/3"
+                android:textSize="20dp"
+                android:fontFamily="@font/aclonica"
+                android:background="@drawable/bg_scores_bg"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/allScores_quizNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quiz_1"
+                android:textSize="20dp"
+                android:fontFamily="@font/aclonica"
+                />
+
+            <TextView
+                android:id="@+id/allScores_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quiz_1"
+                android:textSize="16dp"
+                android:fontFamily="@font/aclonica"
+                />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

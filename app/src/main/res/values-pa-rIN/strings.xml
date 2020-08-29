@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ਕੈਪਸਟੋਨ ਟੀਮ ਓਰੇਂਜ ਜੀ 1 ਨਿਯਮ </string>
+    <string name="logo_name">ਡ੍ਰਾਇਵਿੰਗ ਕੁਇਜ਼ ਸਿਖਲਾਈ</string>
+    <string name="slogan_name">ਕਿਸੇ ਵੀ ਚੀਜ ਵਿੱਚ ਮਾਹਰ ਇਕ ਵਾਰ ਸ਼ੁਰੂਆਤ ਕਰਨ ਵਾਲਾ ਹੁੰਦਾ ਸੀ ਅਤੇ ਜੀ 1 ਸ਼ੁਰੂਆਤੀ ਹੁੰਦਾ ਸੀ</string>
+    <string name="powered_by">ਜੀ 1 ਕੁਇਜ਼ ਮਾਹਰ ਦੁਆਰਾ ਸੰਚਾਲਿਤ</string>
+    <string name="spashimage">ਸਵਾਗਤੀ ਤਸਵੀਰ</string>
+    <string name="menu_header_image">Menu Header Image</string>
+
+    <!---Menus -->
+    <string name="home_menu">ਘਰ</string>
+    <string name="all_scores">ਸਾਰੇ ਸਕੋਰ</string>
+    <string name="challenge_box">ਚੁਣੌਤੀ ਬਾਕਸ</string>
+    <string name="logout_menu">ਲੌਗ ਆਉਟ ਕਰੋ</string>
+    <string name="profile_menu">ਪ੍ਰੋਫਾਈਲ </string>
+    <string name="icon">ਆਈਕਨ</string>
+    <string name="submit_btn">ਜਮ੍ਹਾ</string>
+    <!---Menus -->
+
+    <!--Errors-->
+
+    <string name = "firstNameError"> ਨਾਮ ਦਾਖਲ ਕਰੋ </string>
+    <string name = "LastNameError"> ਆਖਰੀ ਨਾਮ ਦਰਜ ਕਰੋ </string>
+    <string name = "EmailError"> ਵੈਧ ਈਮੇਲ ID </string>
+    <string name = "DobError"> ਜਨਮ ਤਾਰੀ </string>
+    <string name = "PhoneNumberError"> ਵੈਧ ਫੋਨ ਨੰਬਰ ਦਾਖਲ ਕਰੋ| </string>
+    <string name = "PasswordError"> ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ ਘੱਟ 8 ਅੱਖਰਾਂ ਦਾ ਨਾਮ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ, ਉਸ ਤੋਂ ਥੋੜ੍ਹੀ ਦੇਰ ਵਿੱਚ ਇੱਕ ਤੋਂ ਘੱਟ ਐਕਟਰ ਲੈਟਰ, ਇੱਕ ਅਪ੍ਰੈੱਸਟਰ ਲੈਟਰ, ਇੱਕ ਨੰਬਰ ਅਤੇ ਇੱਕ ਵਿਰਾਮ ਚਿੰਨ੍ਹ| </string>
+    <!--Errors-->
+
+    <!--- OTP Verification Page -->
+    <string name="enter_one_time_password_sent_on">Enter one time password sent on your Phone</string>
+    <string name="verification">Verification</string>
+    <string name="phone_otp">PHONE OTP</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="go_to_next"><![CDATA[>>]]></string>
+    <!--- OTP Verification Page -->
+
+    <!--Login and Sign Up -->
+    <string name = "log_in"> ਲੌਗ ਇਨ ਕਰੋ  </string>
+    <string name = "register_in"> ਰਜਿਸਟਰ ਕਰੋ </string>
+    <string name = "enter_emailId"> ਈਮੇਲ ਆਈਡੀ ਦਰਜ ਕਰੋ </string>
+    <string name = "enter_Password"> ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ </string>
+    <string name = "remember_me"> ਮੈਨੂੰ ਯਾਦ ਰੱਖੋ </string>
+    <string name = "forget_password"> ਭੁੱਲ ਗਏ ਪਾਸਵਰਡ </string>
+    <string name = "create_an_account"> ਇੱਕ ਖਾਤਾ ਬਣਾਓ </string>
+    <string name = "enter_full_name">  ਪੂਰਾ ਨਾਮ ਦਰਜ ਕਰੋ </string>
+    <string name = "choose_gender"> ਲਿੰਗ ਚੁਣੋ </string>
+    <string name = "select_your_age"> ਆਪਣੀ ਉਮਰ ਚੁਣੋ </string>
+    <string name = "enter_phone_number"> ਫੋਨ ਨੰਬਰ ਦਾਖਲ ਕਰੋ </string>
+    <string name = "next_btn"> ਅੱਗੇ </string>
+    <string name = "female"> Female </string>
+    <string name = "male"> Male  </string>
+    <string name = "other"> Others </string>
+    <string name="phone_number_cannot_be_empty">ਫੋਨ ਨੰਬਰ ਖਾਲੀ ਨਹੀਂ ਹੋ ਸਕਦੇ</string>
+    <string name="password_cannot_be_empty">ਪਾਸਵਰਡ ਖਾਲੀ ਨਹੀਂ ਹੋ ਸਕਦਾ</string>
+    <!--Login and Sign Up -->
+
+    <!-- Quiz -->
+    <string name="all_quiz">ਸਾਰੇ ਕੁਇਜ਼</string>
+    <string name="quiz_1">ਕੁਇਜ਼ 1</string>
+    <string name="quiz_2"> ਕੁਇਜ਼ 2</string>
+    <string name="quiz_3">ਕੁਇਜ਼ 3</string>
+    <string name="quiz_4">ਕੁਇਜ਼ 4</string>
+    <string name="quiz_5">ਕੁਇਜ਼ 5</string>
+    <string name="start_a_quiz"><![CDATA[ਇੱਕ ਕਵਿਜ਼ ਸ਼ੁਰੂ ਕਰੋ >>]]></string>
+    <string name="_20_questions">20 ਪ੍ਰਸ਼ਨ</string>
+    <string name="_40_questions">40 ਪ੍ਰਸ਼ਨ</string>
+    <string name="road_signs"> ਸੜਕ ਚਿੰਨ੍ਹ </string>
+    <string name="road_rules">ਸੜਕ ਨਿਯਮ</string>
+    <string name="road_signs_easy">ਸੜਕ ਚਿੰਨ੍ਹ - ਅਸਾਨ</string>
+    <string name="road_rules_easy">ਸੜਕ ਨਿਯਮ - ਅਸਾਨ</string>
+    <string name="road_signs_hard">ਸੜਕ ਚਿੰਨ੍ਹ - ਸਖਤ</string>
+    <string name="road_rules_hard">ਸੜਕ ਨਿਯਮ - ਸਖਤ </string>
+    <string name="road_rules_signs">ਸੜਕ ਚਿੰਨ੍ਹ + ਨਿਯਮ</string>
+    <!-- Quiz -->
+
+    <!--Questions -->
+    <string name="option_4">ਵਿਕਲਪ 4 </string>
+    <string name="option_3">ਵਿਕਲਪ 3</string>
+    <string name="option_2">ਵਿਕਲਪ 2</string>
+    <string name="option_1">ਵਿਕਲਪ 1</string>
+    <string name="successfully_registered">ਸਫਲਤਾਪੂਰਵਕ  \\n ਰਜਿਸਟਰਡ</string>
+    <string name="welcome_word">ਜੀ ਆਇਆਂ ਨੂੰ</string>
+    <string name="show_all_scores">ਸਾਰੇ ਸਕੋਰ ਦਿਖਾਓ</string>
+    <string name="show_all_quiz">ਸਾਰੇ ਕਵਿਜ਼ ਦਿਖਾਓ</string>
+    <string name="no_scores_to_show_yet">ਕਹਾਲੇ ਤੱਕ ਕੋਈ ਕੁਇਜ਼ ਦੀ ਕੋਸ਼ਿਸ਼ ਨਹੀਂ ਕੀਤੀ ਗਈ ਹੈ</string>
+    <string name="select_a_language">ਕੋਈ ਭਾਸ਼ਾ ਚੁਣੋ ...</string>
+    <string name="quiz_no_n_nquiz_1">ਕਵਿਜ਼ ਨੰ.\n\nਕੁਇਜ਼ 1</string>
+    <string name="date_n_n10_12_1200">ਮਿਤੀ\n\n10/12/1200</string>
+    <string name="update_your_account">ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਅਪਡੇਟ ਕਰੋ</string>
+    <string name="scores_value">0</string>
+
+    <!--FAQ's -->
+    <string name="faq">FAQ</string>
+    <string name="frequently_asked_questions">ਅਕਸਰ ਪੁੱਛੇ ਜਾਂਦੇ ਪ੍ਰਸ਼ਨ</string>
+    <string name="faq_1">1. ਜੀ 1 ਲਾਇਸੈਂਸ ਕੀ ਹੈ?</string>
+    <string name="faq_ans_1">ਜੀ 1 ਓਨਟਾਰੀਓ ਦੇ ਗ੍ਰੈਜੂਏਟਡ ਲਾਇਸੈਂਸ ਪ੍ਰਣਾਲੀ ਦਾ ਪਹਿਲਾ ਕਦਮ ਹੈ. ਇਹ ਤੁਹਾਨੂੰ ਇੱਕ ਸੁਪਰਵਾਈਜ਼ਿੰਗ ਲਾਇਸੰਸਸ਼ੁਦਾ ਡ੍ਰਾਈਵਰ ਨਾਲ ਆਪਣੇ ਡ੍ਰਾਇਵਿੰਗ ਦੇ ਹੁਨਰਾਂ ਦਾ ਅਭਿਆਸ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ ਜਿਸ ਨੇ ਘੱਟੋ ਘੱਟ 4 ਸਾਲਾਂ ਲਈ ਜੀ ਲਾਇਸੰਸ ਪ੍ਰਾਪਤ ਕੀਤਾ ਹੈ. ਉਨ੍ਹਾਂ ਨੂੰ ਹਰ ਵੇਲੇ ਤੁਹਾਡੇ ਨਾਲ ਅਗਲੀ ਸੀਟ ਤੇ ਬੈਠਣਾ ਚਾਹੀਦਾ ਹੈ|</string>
+    <string name="faq_2">2. ਜਦੋਂ ਮੈਂ ਓਨਟਾਰੀਓ ਵਿੱਚ ਆਪਣੀ ਲਿਖਤ ਟੈਸਟ ਦੇਣ ਜਾਂਦਾ ਹਾਂ ਤਾਂ ਮੇਰੇ ਕੋਲ ਕੁਝ ਖਾਸ ਦਸਤਾਵੇਜ਼ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ?</string>
+    <string name="faq_ans_2">ਹਾਂ. ਜਦੋਂ ਤੁਸੀਂ ਆਪਣੇ ਲਾਇਸੈਂਸ ਲਈ ਅਰਜ਼ੀ ਦੇਣ ਜਾਂਦੇ ਹੋ ਤਾਂ ਤੁਹਾਡੇ ਕੋਲ ਦਸਤਾਵੇਜ਼ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ ਜੋ ਤੁਹਾਡੇ ਦਰਸਾਉਂਦੇ ਹਨ:\n\n- ਕਾਨੂੰਨੀ ਨਾਮ \n ਜਨਮ ਤਰੀਕ\n ਅਸਲੀ ਹਸਤਾਖਰ\n\nਇਹ ਦਸਤਾਵੇਜ਼ ਹੋ ਸਕਦੇ ਹਨ ਜਿਵੇਂ ਕਿ ਪਾਸਪੋਰਟ ( ਕੈਨੇਡੀਅਨ ਜਾਂ ਵਿਦੇਸ਼ੀ), ਫੋਟੋ ਵਾਲਾ ਕੈਨੇਡੀਅਨ ਸਿਟੀਜ਼ਨਸ਼ਿਪ ਕਾਰਡ, ਓਨਟਾਰੀਓ ਫੋਟੋ ਕਾਰਡ, ਕਰਮਚਾਰੀ / ਵਿਦਿਆਰਥੀ ਅਧਿਕਾਰ ਫਾਰਮ, ਜਾਂ ਹੋਰ|</string>
+    <string name="faq_3">3. ਇੱਕ G1 ਲਾਇਸੈਂਸ ਦੀ ਕੀਮਤ ਕਿੰਨੀ ਹੈ?</string>
+    <string name="faq_ans_3">ਜੀ 1 ਲਾਇਸੈਂਸ ਪੈਕੇਜ ਦੀ ਕੀਮਤ 8 158.25 ਹੈ. ਇਸ ਵਿੱਚ ਗਿਆਨ ਟੈਸਟ ਲਈ. 15.75, ਕਲਾਸ ਜੀ 2 ਰੋਡ ਟੈਸਟ ਲਈ. 52.50, ਅਤੇ ਲਾਇਸੈਂਸ ਲਈ .00 90.00 ਸ਼ਾਮਲ ਹਨ ਜੋ 5 ਸਾਲਾਂ ਲਈ ਯੋਗ ਹਨ|</string>
+    <string name="faq_4">4. ਮੈਨੂੰ ਓਂਟੇਰੀਓ ਵਿੱਚ ਮੇਰਾ G1 ਲਾਇਸੈਂਸ ਕਦੋਂ ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਇਜ਼ਾਜ਼ਤ ਹੈ?</string>
+    <string name="faq_ans_4">ਲਾਇਸੈਂਸ ਦੇਣ ਦੀ ਪ੍ਰਕਿਰਿਆ 16 ਸਾਲ ਦੀ ਉਮਰ ਤੋਂ ਅਰੰਭ ਹੋ ਸਕਦੀ ਹੈ।</string>
+    <string name="faq_5">5. ਓਨਟਾਰੀਓ ਦੀ ਲਿਖਤੀ ਪਰੀਖਿਆ ਵਿਚ ਕੀ ਹੋਵੇਗਾ?</string>
+    <string name="faq_ans_5">ਓਨਟਾਰੀਓ ਦੇ ਲਿਖਤੀ ਟੈਸਟ (ਜੀ 1) ਵਿੱਚ ਟ੍ਰੈਫਿਕ ਸੁਰੱਖਿਆ, ਸੜਕੀ ਨਿਯਮਾਂ, ਸੜਕਾਂ ਦੇ ਚਿੰਨ੍ਹ ਅਤੇ ਟ੍ਰੈਫਿਕ ਕਾਨੂੰਨਾਂ ਸੰਬੰਧੀ ਪ੍ਰਸ਼ਨ ਹੋਣਗੇ|</string>
+    <string name="faq_6">6. ਓਨਟਾਰੀਓ ਦੀ ਲਿਖਤੀ ਪਰੀਖਿਆ ਕਿਵੇਂ ਗ੍ਰੇਡ ਕੀਤੀ ਜਾਂਦੀ ਹੈ?</string>
+    <string name="faq_ans_6">ਟੈਸਟ ਵਿੱਚ ਕੁੱਲ 40 ਪ੍ਰਸ਼ਨ ਹਨ. 40 ਪ੍ਰਸ਼ਨਾਂ ਨੂੰ ਹਰ ਭਾਗ ਵਿਚ 20 ਪ੍ਰਸ਼ਨਾਂ ਨਾਲ 2 ਭਾਗਾਂ ਵਿਚ ਵੰਡਿਆ ਗਿਆ ਹੈ. ਤੁਹਾਨੂੰ ਪ੍ਰਤੀ ਸੈਕਸ਼ਨ ਵਿੱਚ 16 ਪ੍ਰਸ਼ਨ ਸਹੀ ਤਰ੍ਹਾਂ ਅੰਕ ਕਰਨੇ ਚਾਹੀਦੇ ਹਨ|</string>
+    <string name="faq_7">7. ਓਨਟਾਰੀਓ ਵਿੱਚ ਇੱਕ G1, G2, ਅਤੇ G ਲਾਇਸੈਂਸ ਵਿੱਚ ਕੀ ਅੰਤਰ ਹੈ?</string>
+    <string name="faq_ans_7">- ਜੀ 1 ਲਾਇਸੈਂਸ ਉਹ ਪਹਿਲਾ ਲਾਇਸੈਂਸ ਹੁੰਦਾ ਹੈ ਜੋ ਤੁਸੀਂ ਉਨਟਾਰੀਓ ਦੇ ਗ੍ਰੈਜੂਏਟਡ ਲਾਇਸੈਂਸ ਪ੍ਰਣਾਲੀ ਵਿੱਚ ਪ੍ਰਾਪਤ ਕਰਦੇ ਹੋ. ਇਹ ਤੁਹਾਡੇ ਦੁਆਰਾ ਗਿਆਨ ਅਤੇ ਦਰਸ਼ਨ ਟੈਸਟ ਪਾਸ ਕਰਨ ਤੋਂ ਬਾਅਦ ਜਾਰੀ ਕੀਤਾ ਜਾਂਦਾ ਹੈ. ਇਸ ਲਾਇਸੈਂਸ ਨਾਲ ਤੁਸੀਂ ਕਾਰ ਵਿਚ ਸਿਰਫ ਇਕ ਜੀ ਲਾਇਸੰਸਸ਼ੁਦਾ ਡ੍ਰਾਈਵਰ ਦੇ ਨਾਲ ਕਾਰ ਵਿਚ ਚਲਾ ਸਕਦੇ ਹੋ ਜਿਸ ਨੇ ਘੱਟੋ ਘੱਟ 4 ਸਾਲ ਲਈ ਆਪਣਾ ਲਾਇਸੈਂਸ ਰੱਖਿਆ ਹੋਇਆ ਹੈ.\n- ਜੀ -2 ਲਾਇਸੈਂਸ ਦੂਜਾ ਲਾਇਸੈਂਸ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਗ੍ਰੈਜੂਏਟਡ ਲਾਇਸੈਂਸ ਪ੍ਰਣਾਲੀ ਵਿਚ ਪ੍ਰਾਪਤ ਹੁੰਦਾ ਹੈ. ਇਹ ਤੁਹਾਡੇ ਲਈ ਜਾਰੀ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਜਦੋਂ ਤੁਸੀਂ ਪਹਿਲਾਂ ਜੀ 1 ਰੋਡ ਟੈਸਟ ਪਾਸ ਕਰਦੇ ਹੋ. ਤੁਹਾਡੀ ਉਮਰ ਦੇ ਅਧਾਰ ਤੇ, ਇਸ ਲਾਈਸੈਂਸ ਤੇ ਅਜੇ ਵੀ ਕੁਝ ਪਾਬੰਦੀਆਂ ਹਨ, ਪਰ ਘੱਟੋ ਘੱਟ ਤੁਸੀਂ ਇਸ ਲਾਇਸੈਂਸ ਨਾਲ ਇਕੱਲੇ ਡ੍ਰਾਇਵਿੰਗ ਕਰ ਸਕਦੇ ਹੋ. ਇਸ ਕਿਸਮ ਦੇ ਲਾਇਸੈਂਸ ਲੈਣ ਦੇ ਯੋਗ ਬਣਨ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਆਪਣਾ G1 ਲਾਇਸੈਂਸ ਪ੍ਰਾਪਤ ਕਰਨ ਤੋਂ ਘੱਟੋ ਘੱਟ 12 ਮਹੀਨੇ ਉਡੀਕ ਕਰਨੀ ਪਵੇਗੀ. \n ਉਨਟਾਰੀਓ ਦੇ ਗ੍ਰੈਜੂਏਟਡ ਲਾਇਸੈਂਸ ਪ੍ਰਣਾਲੀ ਦਾ ਇੱਕ ਜੀ ਲਾਇਸੈਂਸ ਇੱਕ ਅੰਤਮ ਪੜਾਅ ਹੈ. ਇਹ ਤੁਹਾਡੇ ਦੁਆਰਾ G2 ਸੜਕ ਟੈਸਟ ਦੇਣ ਤੋਂ ਬਾਅਦ ਪ੍ਰਾਪਤ ਹੁੰਦਾ ਹੈ. ਇਸ ਲਾਇਸੈਂਸ ਵਿਚ ਕੋਈ ਪਾਬੰਦੀਆਂ ਨਹੀਂ ਹਨ.|</string>
+    <string name="faq_8">8. ਮੈਂ ਓਨਟਾਰੀਓ ਵਿੱਚ ਸੜਕ ਪਰੀਖਣ ਵਿੱਚ ਅਸਫਲ ਰਿਹਾ ਹੈ, ਮੈਂ ਇਸ ਨੂੰ ਦੁਬਾਰਾ ਕਦੋਂ ਲੈ ਸਕਦਾ ਹਾਂ?</string>
+    <string name="faq_ans_8">ਜਦੋਂ ਵੀ ਤੁਸੀਂ ਚਾਹੋ ਤੁਸੀਂ ਆਪਣੀ ਰੋਡ ਟੈਸਟ ਦੁਬਾਰਾ ਲੈ ਸਕਦੇ ਹੋ. ਇਸ ਨੂੰ ਦੁਬਾਰਾ ਲੈਣ ਲਈ ਤੁਹਾਨੂੰ ਘੱਟੋ ਘੱਟ 10 ਦਿਨ ਉਡੀਕ ਕਰਨੀ ਪਏਗੀ. ਇਹ ਸ਼ਾਇਦ ਤੁਹਾਨੂੰ ਵਧੇਰੇ ਅਭਿਆਸ ਕਰਨ ਲਈ ਬਹੁਤ ਲੋੜੀਂਦਾ ਸਮਾਂ ਦੇਵੇਗਾ|</string>
+    <string name="current_score">ਮੌਜੂਦਾ ਸਕੋਰ:</string>
+    <string name="random_4_questions">ਬੇਤਰਤੀਬੇ 4 ਪ੍ਰਸ਼ਨ</string>
+    <string name="about_us">About us</string>
+
+</resources>

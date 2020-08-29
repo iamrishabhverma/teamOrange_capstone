@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Capstone Team Orange G1 Rules Expert</string>
+    <string name="logo_name">Driving Quiz Learning</string>
+    <string name="slogan_name">The expert in anything was once a beginner and G1 is Beginning.</string>
+    <string name="powered_by">Powered By G1 Learning Expert</string>
+    <string name="spashimage">SpashImage</string>
+    <string name="menu_header_image">Menu Header Image</string>
+
+    <!---Menus -->
+    <string name="home_menu">Home</string>
+    <string name="all_scores">All Scores</string>
+    <string name="challenge_box">Challenge Box</string>
+    <string name="logout_menu">Log Out</string>
+    <string name="profile_menu">Profile</string>
+    <string name="icon">Icon</string>
+    <string name="submit_btn">Submit</string>
+    <!---Menus -->
+
+    <!--Errors-->
+    <string name="firstNameError">Enter Text</string>
+    <string name="LastNameError">Enter Last Name</string>
+    <string name="EmailError">Valid EmailID</string>
+    <string name="DobError">Valid DoB</string>
+    <string name="PhoneNumberError">Enter Valid Phone Number</string>
+    <string name="PasswordError">The password should contain at least 8 characters, including at least one lower case letter, one upper case letter, one number and one punctuation mark</string>
+    <!--Errors-->
+
+    <!--- OTP Verification Page -->
+    <string name="enter_one_time_password_sent_on">Enter one time password sent on your Phone</string>
+    <string name="verification">Verification</string>
+    <string name="phone_otp">PHONE OTP</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="go_to_next"><![CDATA[>>]]></string>
+    <!--- OTP Verification Page -->
+
+    <!--Login and Sign Up -->
+    <string name="log_in">Log In</string>
+    <string name="register_in">Register</string>
+    <string name="enter_emailId">Enter EmailID</string>
+    <string name="enter_Password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="choose_gender">Choose Gender</string>
+    <string name="select_your_age">Select Your Age</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="next_btn">Next</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="other">Other</string>
+    <string name="phone_number_cannot_be_empty">Phone Number cannot be Empty</string>
+    <string name="password_cannot_be_empty">Password cannot be Empty</string>
+    <!--Login and Sign Up -->
+
+    <!-- Quiz -->
+    <string name="all_quiz">All Quiz</string>
+    <string name="quiz_1">QuiZ 1</string>
+    <string name="quiz_2">QuiZ 2</string>
+    <string name="quiz_3">Quiz 3</string>
+    <string name="quiz_4">QuiZ 4</string>
+    <string name="quiz_5">QuiZ 5</string>
+    <string name="start_a_quiz"><![CDATA[Start a quiz >>]]></string>
+    <string name="_20_questions">20 Questions</string>
+    <string name="_40_questions">40 Questions</string>
+    <string name="road_signs">Road Signs</string>
+    <string name="road_rules">Road Rules</string>
+    <string name="road_signs_easy">Road Signs - Easy</string>
+    <string name="road_rules_easy">Road Rules - Easy</string>
+    <string name="road_signs_hard">Road Signs - Hard</string>
+    <string name="road_rules_hard">Road Rules - Hard</string>
+    <string name="road_rules_signs">Road Signs + Rules</string>
+    <!-- Quiz -->
+
+    <!--Questions -->
+    <string name="option_4">Option 4</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_1">Option 1</string>
+    <string name="successfully_registered">Successfully\nRegistered</string>
+    <string name="welcome_word">Welcome</string>
+    <string name="show_all_scores">Show All scores</string>
+    <string name="show_all_quiz">Show All Quiz</string>
+    <string name="no_scores_to_show_yet">No Quiz has been attempted Yet! </string>
+    <string name="select_a_language">Select a language...</string>
+    <string name="quiz_no_n_nquiz_1">Quiz No.\n\nQuiz 1</string>
+    <string name="date_n_n10_12_1200">Date\n\n10/12/1200</string>
+    <string name="scores_value">0</string>
+
+    <!--FAQ's -->
+    <string name="faq">FAQ</string>
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="faq_1">1. What is a G1 license?</string>
+    <string name="faq_ans_1">G1 is the first step in Ontario’s graduated licensing system. It allows you to practice your driving skills with a supervising licensed driver who has held a G license for at least 4 years. They must sit in the front seat with you at all times.</string>
+    <string name="faq_2">2. Are there any specific documents I should have when I go to take my written test in Ontario?</string>
+    <string name="faq_ans_2">Yes. When you go in to apply for your license, you are required to have documents that show your:\n\n- Legal Name\n- Date of Birth\n- Original Signature\n\nThese can be documents such as a Passport (Canadian or Foreign), Canadian citizenship card with photo, Ontario Photo card, Employee/Student Authorization Form, or etc.</string>
+    <string name="faq_3">3. How much does a G1 license cost?</string>
+    <string name="faq_ans_3">The G1 license package costs $158.25. This includes $15.75 for the knowledge test, $52.50 for the Class G2 Road Test, and $90.00 for the licence which is valid for 5 years.</string>
+    <string name="faq_4">4. When am I allowed to get my G1 license in Ontario?</string>
+    <string name="faq_ans_4">The licensing process can begin at age 16.</string>
+    <string name="faq_5">5. What will be on the Ontario written test?</string>
+    <string name="faq_ans_5">Ontario’s written test (G1) will contain questions regarding traffic safety, road rules, road signs, and traffic laws.</string>
+    <string name="faq_6">6. How is the Ontario written test graded?</string>
+    <string name="faq_ans_6">The test has a total of 40 questions. The 40 questions are divided into 2 sections with 20 questions per section. You must score 16 questions per section correctly.</string>
+    <string name="faq_7">7. What is the difference between a G1, G2, and G license in Ontario?</string>
+    <string name="faq_ans_7">- A G1 license is the first license you receive in Ontario’s graduated licensing system. It is issued after you have passed the knowledge and vision tests. With this license, you can only drive in the car with a G licensed driver who has held their license at least 4 years.\n - A G2 license is the second license you receive in the graduated licensing system. It is issued to you after you pass the first G1 road test. There are still some restrictions on this license, depending on your age, but at least you can drive alone with this license. You must wait at least 12 months after having received your G1 license before you can be eligible for this type of license .\n - A G license is a final stage in Ontario’s graduated licensing system. It is received after you have taken the G2 road test. This licence has no restrictions.\n</string>
+    <string name="faq_8">8. I have failed the road test in Ontario, when can I retake it?</string>
+    <string name="faq_ans_8">You may take your road test again whenever you like. You must wait at least 10 days to take it again. This is probably to give you much needed time to practice more.</string>
+    <string name="update_your_account">Update Your Account</string>
+    <string name="current_score">Current Score:</string>
+    <string name="random_4_questions">Random 4 Questions</string>
+    <string name="about_us">About us</string>
+    <string name="night_mode">Night Mode</string>
+
+
+</resources>

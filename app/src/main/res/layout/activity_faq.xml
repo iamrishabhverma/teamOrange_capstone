@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context="com.android.capstone_TeamOrange_G1RulesExpert.Users.FaqActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/topSection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/backButtonPress"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="#fff"
+                android:contentDescription="@string/icon"
+                android:src="@drawable/back_icon_white" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/frequently_asked_questions"
+            android:textSize="20sp"
+            android:fontFamily="@font/aclonica"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:background="@color/blueGreen"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="5dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/faq_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:fontFamily="@font/antic"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/faq_ans_1"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="5dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="@string/faq_2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="8dp"
+                    android:background="@color/white"
+                    android:text="@string/faq_ans_2"
+                    android:fontFamily="@font/antic"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="5dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/faq_3" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="8dp"
+                    android:background="@color/white"
+                    android:text="@string/faq_ans_3"
+                    android:fontFamily="@font/antic"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="5dp"
+                    android:text="@string/faq_4"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:background="@color/white"
+                    android:text="@string/faq_ans_4"
+                    android:fontFamily="@font/antic"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="5dp"
+                    android:text="@string/faq_5"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="8dp"
+                    android:background="@color/white"
+                    android:text="@string/faq_ans_5"
+                    android:fontFamily="@font/antic"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="5dp"
+                    android:text="@string/faq_6"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="8dp"
+                    android:background="@color/white"
+                    android:text="@string/faq_ans_6"
+                    android:fontFamily="@font/antic"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="5dp"
+                    android:text="@string/faq_7"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="8dp"
+                    android:background="@color/white"
+                    android:text="@string/faq_ans_7"
+                    android:fontFamily="@font/antic"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="5dp"
+                    android:text="@string/faq_8"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="8dp"
+                    android:background="@color/white"
+                    android:text="@string/faq_ans_8"
+                    android:fontFamily="@font/antic"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/good_luck" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/swininging"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

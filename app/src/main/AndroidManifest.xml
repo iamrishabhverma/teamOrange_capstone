@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.q1learningapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_g1expert"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_g1expert"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.android.capstone_TeamOrange_G1RulesExpert.Users.ProfileActivity" />
+        <activity android:name="com.android.capstone_TeamOrange_G1RulesExpert.Users.FaqActivity" />
+        <activity android:name="com.android.capstone_TeamOrange_G1RulesExpert.Users.ChallengeActivity" />
+        <activity android:name="com.android.capstone_TeamOrange_G1RulesExpert.Users.AllScores" />
+        <activity android:name="com.android.capstone_TeamOrange_G1RulesExpert.Users.ScoresActivity" />
+        <activity android:name="com.android.capstone_TeamOrange_G1RulesExpert.Users.QuizQuestions" />
+        <activity android:name="com.android.capstone_TeamOrange_G1RulesExpert.Users.AllQuizActivity" />
+        <activity android:name="com.android.capstone_TeamOrange_G1RulesExpert.Common.LoginSignup.VerifyOTP" />
+        <activity android:name="com.android.capstone_TeamOrange_G1RulesExpert.Users.UserDashboard" />
+        <activity android:name="com.android.capstone_TeamOrange_G1RulesExpert.Common.LoginSignup.SignUpActivity" />
+        <activity android:name="com.android.capstone_TeamOrange_G1RulesExpert.Common.LoginSignup.LoginActivity" />
+        <activity android:name="com.android.capstone_TeamOrange_G1RulesExpert.Common.FrontScreen" />
+        <activity android:name="com.android.capstone_TeamOrange_G1RulesExpert.Common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

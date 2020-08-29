@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="16dp"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    app:layout_gravity="center_horizontal"
+    android:padding="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/whitesquare"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:id="@+id/scores_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scores_value"
+        android:textSize="18sp"
+        android:fontFamily="@font/aclonica"
+        android:background="@drawable/bg_scores_bg"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        >
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/scores_quizNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="3dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="@string/quiz_5"
+        android:textColor="#0DB3C8"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/scores_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz_5"
+        android:textSize="16sp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="#C80D4D"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        />
+
+</LinearLayout>

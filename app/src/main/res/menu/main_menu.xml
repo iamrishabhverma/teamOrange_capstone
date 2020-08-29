@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home_menu"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/nav_allQuiz"
+            android:title="@string/all_quiz"
+            android:icon="@drawable/allquiz"/>
+
+        <item
+            android:id="@+id/nav_all_scores"
+            android:title="@string/all_scores"
+            android:icon="@drawable/scores"/>
+
+        <item
+            android:id="@+id/nav_add_faq"
+            android:title="@string/frequently_asked_questions"
+            android:icon="@drawable/faq_icon"/>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/profile_menu"
+            android:icon="@drawable/user"/>
+        <item
+            android:id="@+id/nav_dark"
+            android:title="Change Theme"
+            android:icon="@drawable/circle_black_border"/>
+
+
+    </group>
+
+
+    <item android:title="Action">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/logout_menu"
+                android:icon="@drawable/logout"/>
+        </menu>
+    </item>
+
+</menu>

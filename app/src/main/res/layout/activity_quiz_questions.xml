@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGrey"
+    tools:context="com.android.capstone_TeamOrange_G1RulesExpert.Users.QuizQuestions">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/top_question_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/blueGreen">
+
+            <ImageView
+                android:id="@+id/QuitQuiz"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:drawable/btn_dialog" />
+
+            <TextView
+                android:id="@+id/q_question_Count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/0"
+                android:gravity="right"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/whitecircle"
+                android:fontFamily="@font/aclonica"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/current_score_part"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-22dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:textColor="#CAC9C9"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/q_quiz_Questions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:lineHeight="30dp"
+                android:padding="10dp"
+                android:text="Questions"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/questionImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/q_quiz_Questions"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/icon"
+                android:padding="10dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/q_options_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical">
+
+
+            <Button
+                android:id="@+id/q_option_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="16sp"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/antic"
+                android:textAllCaps="false"
+                android:background="@color/white"
+                android:lineHeight="28dp"
+                />
+
+            <Button
+                android:id="@+id/q_option_2"
+                android:layout_below="@id/q_option_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="16sp"
+                android:padding="8dp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/antic"
+                android:background="@color/white"
+                android:lineHeight="28dp"
+                />
+
+            <Button
+                android:id="@+id/q_option_3"
+                android:layout_below="@id/q_option_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/antic"
+                android:background="@color/white"
+                android:lineHeight="28dp"
+                />
+
+            <Button
+                android:id="@+id/q_option_4"
+                android:layout_below="@id/q_option_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:fontFamily="@font/antic"
+                android:background="@color/white"
+                android:lineHeight="28dp"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/q_next_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:alpha="0.3"
+                android:background="@color/colorPrimaryDark"
+                android:enabled="false"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/next_btn"
+                android:textColor="@color/textColor"
+                android:textSize="20sp" />
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
